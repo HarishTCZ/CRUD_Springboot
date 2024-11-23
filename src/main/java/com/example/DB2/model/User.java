@@ -3,6 +3,7 @@ package com.example.DB2.model;
 
 import jakarta.persistence.*;
 
+//user model view object
 @Entity //converts the object this class to a table
 @Table(name="Users")
 public class User {
