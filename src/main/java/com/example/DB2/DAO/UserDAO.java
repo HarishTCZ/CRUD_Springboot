@@ -9,5 +9,8 @@ import org.springframework.stereotype.Component;
 // if one wants to do crud operations, just create a interface and extend the crud repository
 @Component
 public interface UserDAO extends CrudRepository<User, Integer> {
-
+    // the interface consists of methods and functions that can be used to handle interaction between the db and spring
+    //save()
+    //findById()
+    //deleteById()
 }

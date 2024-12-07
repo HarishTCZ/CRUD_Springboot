@@ -12,6 +12,10 @@ public class User {
     private int id;
     private String name;
 
+    public String toString(){
+        return name+" : "+id;
+    }
+
     public String getName() {
         return name;
     }
